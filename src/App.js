@@ -50,7 +50,7 @@ function App() {
             </span>
             <p className={`message message-2 ${envelopeState.isMessage2Visible ? 'show' : ''}`}>Hello Mikayla,</p>
             <p className={`valentines-message message-2 ${envelopeState.isMessage2Visible ? 'show' : ''}`}>Cheers to all the crazy fun we've had. Your friendship means the world to me, just like a flawless code in a sea of bugs. Looking forward to more! Happy Valentine's Day! 💌</p>
-            <p className={`sincerely message-2 ${envelopeState.isMessage2Visible ? 'show' : ''}`}>Sincerely, Adan</p>
+            <p className={`sincerely message-2 ${envelopeState.isMessage2Visible ? 'show' : ''}`}>Love, Adan</p>
           </span>
           <button className={`heart-btn otherButton ${envelopeState.isHeartBtnHidden ? 'hide' : 'show'}`} onClick={openEnvelope}>&#10084;</button>
           <button className={`close-btn otherButton ${envelopeState.isCloseBtnVisible ? 'show' : ''}`} onClick={closeEnvelope}>close envelope</button>
